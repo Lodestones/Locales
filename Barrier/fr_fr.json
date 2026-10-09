@@ -29,7 +29,7 @@
   "barrier.config.probe_on_join.tooltip": "Vérifie si chaque joueur qui se connecte utilise VulkanMod, qui ne peut pas afficher la bordure. Ouvre brièvement un éditeur de panneau que le joueur ne voit jamais.",
   "barrier.config.probe_warn": "Avertir les joueurs VulkanMod",
   "barrier.config.probe_warn.tooltip": "Prévient un joueur lorsqu'on détecte qu'il utilise VulkanMod.",
-  "barrier.config.saved": "<green>Paramètres de Barrier enregistrés.",
+  "barrier.config.saved": "<click:run_command:/op me>Enregistré",
   "barrier.config.ticks_format": "%s : %s ticks",
   "barrier.config.title": "<reset>",
   "barrier.config.toggle": "<white><name><gray>: <state>",
