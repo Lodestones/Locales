@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Français",
+  "locale.sort_order": "3",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Impossible de hacher cette source : <error>",
+  "painting.command.hash.hashing": "<gray>Hachage de <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Génération des haches...",
+  "painting.command.no_permission": "<red>Vous n'avez pas la permission.",
+  "painting.command.reload.done": "<green>Painting rechargé.",
+  "painting.command.resend.done": "<green>Paquets renvoyés à tous les joueurs en ligne.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Vous devez accepter le paquet de ressources pour jouer.",
+  "painting.player.failed": "<red>Échec du téléchargement du paquet de ressources. Essayez de vous reconnecter.",
+  "painting.player.prompt": "<green>Bienvenue ! Installez le paquet de ressources."
+}

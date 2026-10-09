@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> は現在有効です (再起動まで - config.yml を編集して永続化してください)。",
+  "frame.channel.status": "<channel> は <status>",
+  "frame.channel.unknown": "不明なチャネル: <channel>",
+  "frame.channel.usage": "使用法: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "これを行う権限がありません。",
+  "frame.command.reload.done": "コンフィグをリロードし、すべてのプレイヤーをリフレッシュしました。",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> プロバイダー、最高優先度順:",
+  "frame.providers.none": "登録されたプロバイダーはありません。",
+  "locale.display_name": "日本語",
+  "locale.sort_order": "10",
+  "locale.version": "1"
+}

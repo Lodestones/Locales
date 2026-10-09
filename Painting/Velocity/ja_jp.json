@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "日本語",
+  "locale.sort_order": "10",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>このソースをハッシュできませんでした: <error>",
+  "painting.command.hash.hashing": "<gray><white><source></white> をハッシュ中...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>ハッシュを生成中...",
+  "painting.command.no_permission": "<red>権限がありません。",
+  "painting.command.reload.done": "<green>Painting をリロードしました。",
+  "painting.command.resend.done": "<green>すべてのオンラインプレイヤーにパックを再送信しました。",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>プレイするにはリソースパックを受け入れる必要があります。",
+  "painting.player.failed": "<red>リソースパックのダウンロードに失敗しました。再度接続してください。",
+  "painting.player.prompt": "<green>ようこそ! リソースパックをインストールしてください。"
+}

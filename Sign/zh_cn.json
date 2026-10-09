@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "简体中文",
+  "locale.sort_order": "12",
+  "locale.version": "1",
+  "sign.command.reload.done": "已重新加载 Sign 配置。",
+  "sign.command.reload.failed": "无法重新加载 Sign，请检查服务器日志。"
+}

@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Türkçe",
+  "locale.sort_order": "9",
+  "locale.version": "1",
+  "sign.command.reload.done": "Sign yapılandırması yeniden yüklendi.",
+  "sign.command.reload.failed": "Sign yeniden yüklenemedi, sunucu günlüklerini kontrol edin."
+}

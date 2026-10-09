@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> agora esta ativado (ate reinicio - edite config.yml para persistir).",
+  "frame.channel.status": "<channel> esta <status>",
+  "frame.channel.unknown": "Canal desconhecido: <channel>",
+  "frame.channel.usage": "Uso: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "Voce nao tem permissao para fazer isso.",
+  "frame.command.reload.done": "Config recarregada e cada jogador atualizado.",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> provedor(es), maior prioridade primeiro:",
+  "frame.providers.none": "Nenhum provedor registrado.",
+  "locale.display_name": "Portugues (Brasil)",
+  "locale.sort_order": "2",
+  "locale.version": "1"
+}

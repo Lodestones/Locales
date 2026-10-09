@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Nederlands",
+  "locale.sort_order": "6",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Kon deze bron niet hashen: <error>",
+  "painting.command.hash.hashing": "<gray>Hashen van <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Hashes worden gegenereerd...",
+  "painting.command.no_permission": "<red>Je hebt geen toestemming.",
+  "painting.command.reload.done": "<green>Painting herladen.",
+  "painting.command.resend.done": "<green>Pakketten opnieuw verzonden naar alle online spelers.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Je moet het resourcepakket accepteren om te spelen.",
+  "painting.player.failed": "<red>Fout bij het downloaden van het resourcepakket. Probeer opnieuw verbinding te maken.",
+  "painting.player.prompt": "<green>Welkom! Installeer het resourcepakket."
+}

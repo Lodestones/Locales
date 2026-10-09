@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> теперь включен (до перезагрузки - отредактируйте config.yml для сохранения).",
+  "frame.channel.status": "<channel> это <status>",
+  "frame.channel.unknown": "Неизвестный канал: <channel>",
+  "frame.channel.usage": "Использование: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "У вас нет разрешения на это.",
+  "frame.command.reload.done": "Конфиг перезагружен и каждый игрок обновлен.",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> поставщик(и), наивысший приоритет первым:",
+  "frame.providers.none": "Нет зарегистрированных поставщиков.",
+  "locale.display_name": "Русский",
+  "locale.sort_order": "8",
+  "locale.version": "1"
+}

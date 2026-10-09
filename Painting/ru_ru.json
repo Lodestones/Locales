@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Русский",
+  "locale.sort_order": "8",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Не удалось хешировать этот источник: <error>",
+  "painting.command.hash.hashing": "<gray>Хеширование <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Генерация хешей...",
+  "painting.command.no_permission": "<red>У вас нет прав.",
+  "painting.command.reload.done": "<green>Painting перезагружен.",
+  "painting.command.resend.done": "<green>Паки переправлены всем онлайн игрокам.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Вы должны принять пак ресурсов, чтобы играть.",
+  "painting.player.failed": "<red>Ошибка при загрузке пака ресурсов. Попробуйте переподключиться.",
+  "painting.player.prompt": "<green>Добро пожаловать! Установите пак ресурсов."
+}

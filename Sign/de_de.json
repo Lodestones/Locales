@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Deutsch",
+  "locale.sort_order": "4",
+  "locale.version": "1",
+  "sign.command.reload.done": "Sign-Konfiguration neu geladen.",
+  "sign.command.reload.failed": "Sign konnte nicht neu geladen werden, überprüfen Sie die Server-Logs."
+}

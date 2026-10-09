@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Deutsch",
+  "locale.sort_order": "4",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Konnte diesen Quelltext nicht hashen: <error>",
+  "painting.command.hash.hashing": "<gray>Hashing <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Hashes werden generiert...",
+  "painting.command.no_permission": "<red>Du hast keine Berechtigung.",
+  "painting.command.reload.done": "<green>Painting neugeladen.",
+  "painting.command.resend.done": "<green>Packs an alle Online-Spieler erneut gesendet.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Du musst das Ressourcenpaket akzeptieren, um zu spielen.",
+  "painting.player.failed": "<red>Fehler beim Herunterladen des Ressourcenpakets. Versuche dich neu zu verbinden.",
+  "painting.player.prompt": "<green>Willkommen! Installiere das Ressourcenpaket."
+}

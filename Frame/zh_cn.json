@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> 现在已启用 (直到重启 - 编辑 config.yml 以持久化)。",
+  "frame.channel.status": "<channel> 是 <status>",
+  "frame.channel.unknown": "未知频道: <channel>",
+  "frame.channel.usage": "用法: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "您没有权限进行此操作。",
+  "frame.command.reload.done": "配置已重新加载，每个玩家都已刷新。",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> 个提供商，最高优先级优先:",
+  "frame.providers.none": "未注册任何提供商。",
+  "locale.display_name": "简体中文",
+  "locale.sort_order": "12",
+  "locale.version": "1"
+}

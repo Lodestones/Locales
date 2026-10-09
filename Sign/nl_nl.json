@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Nederlands",
+  "locale.sort_order": "6",
+  "locale.version": "1",
+  "sign.command.reload.done": "Sign-configuratie herladen.",
+  "sign.command.reload.failed": "Sign kon niet worden herladen, controleer de serverlogboeken."
+}

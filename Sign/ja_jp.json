@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "日本語",
+  "locale.sort_order": "10",
+  "locale.version": "1",
+  "sign.command.reload.done": "Sign の設定が再読み込みされました。",
+  "sign.command.reload.failed": "Sign を再読み込みできませんでした。サーバーログを確認してください。"
+}

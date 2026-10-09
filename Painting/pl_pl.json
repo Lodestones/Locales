@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Polski",
+  "locale.sort_order": "7",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Nie można zahashować tego źródła: <error>",
+  "painting.command.hash.hashing": "<gray>Hashowanie <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Generowanie hashów...",
+  "painting.command.no_permission": "<red>Nie masz uprawnień.",
+  "painting.command.reload.done": "<green>Painting przeładowany.",
+  "painting.command.resend.done": "<green>Pakiety wysłane ponownie do wszystkich graczy online.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Musisz zaakceptować pakiet zasobów, aby grać.",
+  "painting.player.failed": "<red>Nie udało się pobrać pakietu zasobów. Spróbuj się ponownie połączyć.",
+  "painting.player.prompt": "<green>Witaj! Zainstaluj pakiet zasobów."
+}

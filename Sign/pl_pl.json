@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Polski",
+  "locale.sort_order": "7",
+  "locale.version": "1",
+  "sign.command.reload.done": "Konfiguracja znaku przeładowana.",
+  "sign.command.reload.failed": "Nie udało się przeładować znaku, sprawdź dzienniki serwera."
+}

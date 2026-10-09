@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "Português (Brasil)",
+  "locale.sort_order": "2",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Não foi possível fazer hash desta fonte: <error>",
+  "painting.command.hash.hashing": "<gray>Fazendo hash de <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Gerando hashes...",
+  "painting.command.no_permission": "<red>Você não tem permissão.",
+  "painting.command.reload.done": "<green>Painting recarregado.",
+  "painting.command.resend.done": "<green>Pacotes reenviados para todos os jogadores online.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>Você precisa aceitar o pacote de recursos para jogar.",
+  "painting.player.failed": "<red>Falha ao baixar o pacote de recursos. Tente reconectar.",
+  "painting.player.prompt": "<green>Bem-vindo! Instale o pacote de recursos."
+}

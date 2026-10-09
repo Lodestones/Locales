@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "한국어",
+  "locale.sort_order": "11",
+  "locale.version": "1",
+  "sign.command.reload.done": "Sign 설정이 다시 로드되었습니다.",
+  "sign.command.reload.failed": "Sign을 다시 로드할 수 없으므로 서버 로그를 확인하십시오."
+}

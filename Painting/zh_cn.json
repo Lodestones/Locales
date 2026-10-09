@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "简体中文",
+  "locale.sort_order": "12",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>无法对此源进行哈希: <error>",
+  "painting.command.hash.hashing": "<gray>正在对 <white><source></white> 进行哈希...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>正在生成哈希...",
+  "painting.command.no_permission": "<red>您没有权限。",
+  "painting.command.reload.done": "<green>Painting 已重新加载。",
+  "painting.command.resend.done": "<green>已将资源包重新发送给所有在线玩家。",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>您必须接受资源包才能游玩。",
+  "painting.player.failed": "<red>资源包下载失败。请尝试重新连接。",
+  "painting.player.prompt": "<green>欢迎! 请安装资源包。"
+}

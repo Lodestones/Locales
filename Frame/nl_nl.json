@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> is nu ingeschakeld (tot herstart - bewerk config.yml om persistent te maken).",
+  "frame.channel.status": "<channel> is <status>",
+  "frame.channel.unknown": "Onbekend kanaal: <channel>",
+  "frame.channel.usage": "Gebruik: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "Je hebt geen toestemming om dat te doen.",
+  "frame.command.reload.done": "Config herladen en elke speler vernieuwd.",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> leverancier(s), hoogste prioriteit eerst:",
+  "frame.providers.none": "Geen leveranciers geregistreerd.",
+  "locale.display_name": "Nederlands",
+  "locale.sort_order": "6",
+  "locale.version": "1"
+}

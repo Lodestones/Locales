@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Русский",
+  "locale.sort_order": "8",
+  "locale.version": "1",
+  "sign.command.reload.done": "Конфигурация Sign перезагружена.",
+  "sign.command.reload.failed": "Не удалось перезагрузить Sign, проверьте логи сервера."
+}

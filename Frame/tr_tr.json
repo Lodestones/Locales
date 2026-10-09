@@ -1,0 +1,14 @@
+{
+  "frame.channel.enabled_until_restart": "<channel> su anda etkin (yeniden baslana kadar - kalici olarak config.yml'yi duzenle).",
+  "frame.channel.status": "<channel> <status>",
+  "frame.channel.unknown": "Bilinmeyen kanal: <channel>",
+  "frame.channel.usage": "Kullanim: /frame channel <name> [on|off]",
+  "frame.command.no_permission": "Bunu yapmak icin izniniz yok.",
+  "frame.command.reload.done": "Config yeniden yuklendi ve her oyuncu yenilendi.",
+  "frame.config.header": "/frame reload | providers | channel <name> [on|off] | version",
+  "frame.providers.count": "<count> saglayici(lar), en yuksek oncelik oncesi:",
+  "frame.providers.none": "Kayitli saglayici yok.",
+  "locale.display_name": "Turkce",
+  "locale.sort_order": "9",
+  "locale.version": "1"
+}

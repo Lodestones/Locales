@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "English",
+  "locale.sort_order": "0",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>Could not hash that source: <error>",
+  "painting.command.hash.hashing": "<gray>Hashing <white><source></white>...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>Generating hashes...",
+  "painting.command.no_permission": "<red>No permission.",
+  "painting.command.reload.done": "<green>Painting reloaded.",
+  "painting.command.resend.done": "<green>Resent packs to all online players.",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>You need to accept the resourcepack in order to play.",
+  "painting.player.failed": "<red>Failed to download the resourcepack. Please try reconnecting.",
+  "painting.player.prompt": "<green>Welcome! Please install the resourcepack."
+}

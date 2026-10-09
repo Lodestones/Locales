@@ -1,0 +1,17 @@
+{
+  "locale.display_name": "繁體中文",
+  "locale.sort_order": "13",
+  "locale.version": "1",
+  "painting.command.hash.error": "<red>無法對此來源進行雜湊: <error>",
+  "painting.command.hash.hashing": "<gray>正在對 <white><source></white> 進行雜湊...",
+  "painting.command.hash.result": "<green><hash>",
+  "painting.command.hashes.generating": "<gray>正在生成雜湊...",
+  "painting.command.no_permission": "<red>您沒有權限。",
+  "painting.command.reload.done": "<green>Painting 已重新載入。",
+  "painting.command.resend.done": "<green>已將資源包重新發送給所有線上玩家。",
+  "painting.command.usage": "<gray>/painting <reload|resend|generatehashes|hash <url|file>>",
+  "painting.command.usage.hash": "<gray>/painting hash <url|file>",
+  "painting.player.declined": "<red>您必須接受資源包才能遊玩。",
+  "painting.player.failed": "<red>資源包下載失敗。請嘗試重新連接。",
+  "painting.player.prompt": "<green>歡迎! 請安裝資源包。"
+}

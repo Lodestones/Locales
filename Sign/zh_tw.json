@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "繁體中文",
+  "locale.sort_order": "13",
+  "locale.version": "1",
+  "sign.command.reload.done": "已重新載入 Sign 組態。",
+  "sign.command.reload.failed": "無法重新載入 Sign，請檢查伺服器日誌。"
+}

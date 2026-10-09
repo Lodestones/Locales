@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "Français",
+  "locale.sort_order": "3",
+  "locale.version": "1",
+  "sign.command.reload.done": "Configuration de Sign rechargée.",
+  "sign.command.reload.failed": "Impossible de recharger Sign, vérifiez les logs du serveur."
+}

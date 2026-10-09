@@ -1,0 +1,7 @@
+{
+  "locale.display_name": "English",
+  "locale.sort_order": "0",
+  "locale.version": "1",
+  "sign.command.reload.done": "Reloaded Sign configuration.",
+  "sign.command.reload.failed": "Failed to reload Sign, check the server logs."
+}
