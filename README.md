@@ -8,14 +8,19 @@ Spotted a typo, a clumsy phrase, or a language that's missing? Open a pull reque
 
 ## Layout
 
-One folder per plugin, one file per language:
+One folder per project, one file per language. A project with a proxy plugin keeps its
+locales in a `Velocity` folder inside its own:
 
 ```
-barrier/
+Barrier/
   manifest.json   which languages the folder has
   en_us.json      English, the source every other file is checked against
   fr_fr.json
   ...
+Bookshelf/
+  en_us.json ...
+  Velocity/
+    en_us.json ...
 ```
 
 Every file is a flat JSON object of key to text:

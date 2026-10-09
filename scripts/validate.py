@@ -95,7 +95,11 @@ def check_plugin(folder, fix):
 
 def main():
     fix = "--fix" in sys.argv
-    plugins = [p for p in sorted(ROOT.iterdir()) if p.is_dir() and not p.name.startswith(".") and p.name != "scripts"]
+    # Any folder holding locale files is a plugin, so a project can nest one per platform
+    # (Bookshelf/ for Paper, Bookshelf/Velocity/ for the proxy).
+    plugins = sorted({p.parent for p in ROOT.rglob("*.json")
+                      if not any(part.startswith(".") for part in p.relative_to(ROOT).parts)
+                      and p.relative_to(ROOT).parts[0] != "scripts"})
     for folder in plugins:
         check_plugin(folder, fix)
     for note in notes:
