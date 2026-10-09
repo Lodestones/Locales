@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "Starter-Kit",
   "observer.menu.late_scatter.title": "Verwaltung verspäteter Verteilung",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>Wenn aktiviert, können Spieler mit /withdraw",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>Herzen abheben.",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>Herzen mit /withdraw abheben.",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "Herzen abheben erlaubt",
   "observer.menu.lifesteal.disabled_message": "<green><bold>ERFOLG » <reset><green><red>Lifesteal wurde deaktiviert.",
   "observer.menu.lifesteal.enabled_message": "<green><bold>ERFOLG » <reset><green>Lifesteal wurde aktiviert.",

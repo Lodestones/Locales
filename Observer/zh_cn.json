@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "初始套装",
   "observer.menu.late_scatter.title": "延迟分散管理器",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>启用后，玩家可以使用 /withdraw",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>提取心。",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>使用 /withdraw 提取心。",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "允许提取心",
   "observer.menu.lifesteal.disabled_message": "<green><bold>成功 » <reset><green><red>生命窃取已禁用。",
   "observer.menu.lifesteal.enabled_message": "<green><bold>成功 » <reset><green>生命窃取已启用。",

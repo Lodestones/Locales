@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "시작 키트",
   "observer.menu.late_scatter.title": "늦은 분산 관리자",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>활성화하면 플레이어가 /withdraw로",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>하트를 인출할 수 있습니다.",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>/withdraw로 하트를 인출할 수 있습니다.",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "하트 인출 가능",
   "observer.menu.lifesteal.disabled_message": "<green><bold>성공 » <reset><green><red>라이프스틸이 비활성화되었습니다.",
   "observer.menu.lifesteal.enabled_message": "<green><bold>성공 » <reset><green>라이프스틸이 활성화되었습니다.",

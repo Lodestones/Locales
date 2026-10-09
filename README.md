@@ -46,16 +46,25 @@ Edit the value in that language's file and open a pull request. Keep the key as 
 
 ## Rules
 
-A check runs on every pull request and fails if any of these is broken:
+A check runs on every pull request and fails, pointing at the line, if any of these is
+broken:
 
 - **Keep every tag exactly.** Anything in angle brackets stays as it is, the same number of
   times. That covers colours and formatting (`<red>`, `<bold>`, `<reset>`) and
   placeholders the plugin fills in (`<player>`, `<time>`, `<size>`). Don't translate inside
   them. You can move them around to suit your grammar.
-- **Keep every `%s`.** Same count as the English text.
-- **Only keys that exist in `en_us.json`.**
+- **Keep every `%s`, line break, and the spaces** at the start and end of the English text.
 - **Don't translate commands** (`/worldborder set height <value>`) or product names
-  (Barrier, Lodestone, VulkanMod).
+  (Barrier, Lodestone, VulkanMod). A few phrases players have to type, like
+  `"I understand"` in Bookshelf, also stay in English.
+- **Only keys that exist in `en_us.json`**, with no key twice and no empty values.
+  Leave a key out instead and it shows in English.
+- **Format the file** with `python3 scripts/validate.py --fix` (keys sorted, 2-space
+  indent, UTF-8 without BOM). The same command adds a new language to `manifest.json`.
+
+Contributions change language files, manifests and this README. The English files and
+the checks themselves are maintained alongside the plugins, so for those, open an issue.
+Every pull request is reviewed before it's merged.
 
 Run the check yourself before opening the pull request:
 

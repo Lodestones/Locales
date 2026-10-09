@@ -195,7 +195,7 @@
   "bookshelf.infraction.banlist.hover_expires": "\n<expires>",
   "bookshelf.infraction.banlist.hover_ip_title": "Baneo por IP",
   "bookshelf.infraction.banlist.hover_title": "Baneo de <player>",
-  "bookshelf.infraction.banlist.ip_prefix": "<red>[IP]",
+  "bookshelf.infraction.banlist.ip_prefix": "<red>[IP] ",
   "bookshelf.infraction.banlist.none": "<red>No se encontraron baneos activos",
   "bookshelf.infraction.banlist.row": "<prefix>• <white><name> <gray>hace <ago> <white>- Por <yellow><issuer>",
   "bookshelf.infraction.delwarn.default_reason": "Advertencia quitada por un operador",

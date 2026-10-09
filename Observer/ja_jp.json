@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "スターターキット",
   "observer.menu.late_scatter.title": "途中参加マネージャー",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>有効にすると、プレイヤーは /withdraw で",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>ハートを引き出せます。",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>/withdraw でハートを引き出せます。",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "ハートの引き出し",
   "observer.menu.lifesteal.disabled_message": "<green><bold>成功 » <reset><green><red>Lifesteal を無効にしました。",
   "observer.menu.lifesteal.enabled_message": "<green><bold>成功 » <reset><green>Lifesteal を有効にしました。",

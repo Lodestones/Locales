@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "初始裝備包",
   "observer.menu.late_scatter.title": "延遲分散管理",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>啟用後，玩家可使用 /withdraw",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>提領愛心。",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>使用 /withdraw 提領愛心。",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "可提領愛心",
   "observer.menu.lifesteal.disabled_message": "<green><bold>成功 » <reset><green><red>生命竊取已停用。",
   "observer.menu.lifesteal.enabled_message": "<green><bold>成功 » <reset><green>生命竊取已啟用。",

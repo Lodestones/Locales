@@ -4,13 +4,67 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+
+# Pull requests come from forks, so the token stays read-only and the workflow
+# never runs on pull_request_target: nothing a contributor writes can reach a
+# secret or push to the repository.
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:
+    name: Locale files
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
-      - run: python3 scripts/validate.py
+      # On a pull request the rules come from the base branch, so the pull request
+      # can't change the checker it is checked by.
+      - name: Check locale files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          LOCALES_ROOT: ${{ github.workspace }}
+        run: |
+          if [ -n "$BASE_SHA" ]; then
+            mkdir -p /tmp/rules
+            git show "$BASE_SHA:scripts/validate.py" > /tmp/rules/validate.py
+            git show "$BASE_SHA:scripts/literals.json" > /tmp/rules/literals.json 2>/dev/null || true
+            python3 /tmp/rules/validate.py --github
+          else
+            python3 scripts/validate.py --github
+          fi
+
+  scope:
+    name: Pull request scope
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      # The checker itself comes from the base branch, so a pull request can't
+      # loosen the rules it is being checked against.
+      - name: Check changed paths
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+        run: |
+          git show "$BASE_SHA:scripts/check_pr.py" > /tmp/check_pr.py
+          python3 /tmp/check_pr.py

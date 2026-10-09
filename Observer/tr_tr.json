@@ -233,7 +233,7 @@
   "observer.menu.late_scatter.starter_kit.title": "Başlangıç Kiti",
   "observer.menu.late_scatter.title": "Geç Dağıtım Yöneticisi",
   "observer.menu.lifesteal.can_withdraw.lore.1": "<gray>Etkinleştirilirse oyuncular /withdraw ile",
-  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>kalp çekebilir.",
+  "observer.menu.lifesteal.can_withdraw.lore.2": "<gray>/withdraw ile kalp çekebilir.",
   "observer.menu.lifesteal.can_withdraw_hearts.title": "Kalp Çekebilir",
   "observer.menu.lifesteal.disabled_message": "<green><bold>BAŞARILI » <reset><green><red>Lifesteal devre dışı bırakıldı.",
   "observer.menu.lifesteal.enabled_message": "<green><bold>BAŞARILI » <reset><green>Lifesteal etkinleştirildi.",
